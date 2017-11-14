@@ -29,6 +29,7 @@
                 </os>
             </activation>
             <properties>
+                <pngdecoder.version>1.0</pngdecoder.version>
                 <joml.version>1.9.6</joml.version>
                 <lwjgl.version>3.1.2</lwjgl.version>
                 <native.target>natives-windows</native.target>
@@ -42,6 +43,7 @@
                 </os>
             </activation>
             <properties>
+                <pngdecoder.version>1.0</pngdecoder.version>
                 <joml.version>1.9.6</joml.version>
                 <lwjgl.version>3.1.2</lwjgl.version>
                 <native.target>natives-linux</native.target>
@@ -55,6 +57,7 @@
                 </os>
             </activation>
             <properties>
+                <pngdecoder.version>1.0</pngdecoder.version>
                 <joml.version>1.9.6</joml.version>
                 <lwjgl.version>3.1.2</lwjgl.version>
                 <native.target>natives-macos</native.target>
@@ -85,6 +88,12 @@
             <groupId>org.joml</groupId>
             <artifactId>joml</artifactId>
             <version>${joml.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.l33tlabs.twl</groupId>
+            <artifactId>pngdecoder</artifactId>
+            <version>${pngdecoder.version}</version>
         </dependency>
 
         <!-- natives -->
